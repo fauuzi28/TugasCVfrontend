@@ -26,65 +26,65 @@
     font-size: 16px;
   }
   
-  .resume {
+  .CV {
     width: 800px;
     height: auto;
     display: flex;
     margin: 50px auto;
   }
   
-  .resume .resume_left {
+  .CV .CV_left {
     width: 280px;
     background: #0bb5f4;
   }
   
-  .resume .resume_left .resume_profile {
+  .CV .CV_left .CV_profile {
     width: 100%;
     height: 280px;
   }
   
-  .resume .resume_left .resume_profile img {
+  .CV .CV_left .CV_profile img {
     width: 100%;
     height: 100%;
   }
   
-  .resume .resume_left .resume_content {
+  .CV .CV_left .CV_content {
     padding: 0 25px;
   }
   
-  .resume .title {
+  .CV .title {
     margin-bottom: 20px;
   }
   
-  .resume .resume_left .bold {
+  .CV .CV_left .bold {
     color: #fff;
   }
   
-  .resume .resume_left .regular {
+  .CV .CV_left .regular {
     color: #b1eaff;
   }
   
-  .resume .resume_item {
+  .CV .CV_item {
     padding: 25px 0;
     border-bottom: 2px solid #b1eaff;
   }
   
-  .resume .resume_left .resume_item:last-child,
-  .resume .resume_right .resume_item:last-child {
+  .CV .CV_left .CV_item:last-child,
+  .CV .CV_right .CV_item:last-child {
     border-bottom: 0px;
   }
   
-  .resume .resume_left ul li {
+  .CV .CV_left ul li {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
   }
   
-  .resume .resume_left ul li:last-child {
+  .CV .CV_left ul li:last-child {
     margin-bottom: 0;
   }
   
-  .resume .resume_left ul li .icon {
+  .CV .CV_left ul li .icon {
     width: 35px;
     height: 35px;
     background: #fff;
@@ -95,19 +95,19 @@
     position: relative;
   }
   
-  .resume .icon i,
-  .resume .resume_right .resume_hobby ul li i {
+  .CV .icon i,
+  .CV .CV_right .CV_hobby ul li i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
-  .resume .resume_left ul li .data {
+  .CV .CV_left ul li .data {
     color: #b1eaff;
   }
   
-  .resume .resume_left .resume_skills ul li {
+  .CV .CV_left .CV_skills ul li {
     display: flex;
     margin-bottom: 10px;
     color: #b1eaff;
@@ -115,11 +115,11 @@
     align-items: center;
   }
   
-  .resume .resume_left .resume_skills ul li .skill_name {
+  .CV .CV_left .CV_skills ul li .skill_name {
     width: 25%;
   }
   
-  .resume .resume_left .resume_skills ul li .skill_progress {
+  .CV .CV_left .CV_skills ul li .skill_progress {
     width: 60%;
     margin: 0 5px;
     height: 5px;
@@ -127,11 +127,11 @@
     position: relative;
   }
   
-  .resume .resume_left .resume_skills ul li .skill_per {
+  .CV .CV_left .CV_skills ul li .skill_per {
     width: 15%;
   }
   
-  .resume .resume_left .resume_skills ul li .skill_progress span {
+  .CV .CV_left .CV_skills ul li .skill_progress span {
     position: absolute;
     top: 0;
     left: 0;
@@ -139,47 +139,47 @@
     background: #fff;
   }
   
-  .resume .resume_left .resume_social .semi-bold {
+  .CV .CV_left .CV_social .semi-bold {
     color: #fff;
     margin-bottom: 3px;
   }
   
-  .resume .resume_right {
+  .CV .CV_right {
     width: 520px;
     background: #fff;
     padding: 25px;
   }
   
-  .resume .resume_right .bold {
+  .CV .CV_right .bold {
     color: #0bb5f4;
   }
   
-  .resume .resume_right .resume_work ul,
-  .resume .resume_right .resume_education ul {
+  .CV .CV_right .CV_work ul,
+  .CV .CV_right .CV_education ul {
     padding-left: 40px;
     overflow: hidden;
   }
   
-  .resume .resume_right ul li {
+  .CV .CV_right ul li {
     position: relative;
   }
   
-  .resume .resume_right ul li .date {
+  .CV .CV_right ul li .date {
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 15px;
   }
   
-  .resume .resume_right ul li .info {
+  .CV .CV_right ul li .info {
     margin-bottom: 20px;
   }
   
-  .resume .resume_right ul li:last-child .info {
+  .CV .CV_right ul li:last-child .info {
     margin-bottom: 0;
   }
   
-  .resume .resume_right .resume_work ul li:before,
-  .resume .resume_right .resume_education ul li:before {
+  .CV .CV_right .CV_work ul li:before,
+  .CV .CV_right .CV_education ul li:before {
     content: "";
     position: absolute;
     top: 5px;
@@ -190,8 +190,8 @@
     border: 2px solid #0bb5f4;
   }
   
-  .resume .resume_right .resume_work ul li:after,
-  .resume .resume_right .resume_education ul li:after {
+  .CV .CV_right .CV_work ul li:after,
+  .CV .CV_right .CV_education ul li:after {
     content: "";
     position: absolute;
     top: 14px;
@@ -201,12 +201,12 @@
     background: #0bb5f4;
   }
   
-  .resume .resume_right .resume_hobby ul {
+  .CV .CV_right .CV_hobby ul {
     display: flex;
     justify-content: space-between;
   }
   
-  .resume .resume_right .resume_hobby ul li {
+  .CV .CV_right .CV_hobby ul li {
     width: 80px;
     height: 80px;
     border: 2px solid #0bb5f4;
@@ -215,11 +215,11 @@
     color: #0bb5f4;
   }
   
-  .resume .resume_right .resume_hobby ul li i {
+  .CV .CV_right .CV_hobby ul li i {
     font-size: 30px;
   }
   
-  .resume .resume_right .resume_hobby ul li:before {
+  .CV .CV_right .CV_hobby ul li:before {
     content: "";
     position: absolute;
     top: 40px;
@@ -229,6 +229,6 @@
     background: #0bb5f4;
   }
   
-  .resume .resume_right .resume_hobby ul li:last-child:before {
+  .CV .CV_right .CV_hobby ul li:last-child:before {
     display: none;
   }
